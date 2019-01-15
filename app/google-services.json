@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "563616728906",
+    "firebase_url": "https://wisemappa.firebaseio.com",
+    "project_id": "wisemappa",
+    "storage_bucket": "wisemappa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563616728906:android:d637296679dde28f",
+        "android_client_info": {
+          "package_name": "de.djuelg.vostore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563616728906-fbcs0sm40jcbi47nqeaooeu5q9sit1ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.djuelg.vostore",
+            "certificate_hash": "8e95dacf6c6fad9f88ef5f89c3d1663d0cc145b4"
+          }
+        },
+        {
+          "client_id": "563616728906-fi35eapnjtkdl53hs7lncd0fgjm0uufb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-WtPz4nbNZEAQs2ySS5Dakba8aC0ofR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563616728906-fi35eapnjtkdl53hs7lncd0fgjm0uufb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

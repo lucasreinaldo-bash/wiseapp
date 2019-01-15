@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="de.djuelg.neuronizer.presentation.ui.widget.TodoListAppWidgetConfigure">
+    tools:context="de.djuelg.vostore.presentation.ui.widget.TodoListAppWidgetConfigure">
 
     <TextView
         android:id="@+id/widget_config_description"

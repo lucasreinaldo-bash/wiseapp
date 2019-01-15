@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:tools="http://schemas.android.com/tools"
-    package="de.djuelg.neuronizer"
+    package="de.djuelg.vostore"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
-        android:name="de.djuelg.neuronizer.AndroidApplication"
-        android:label="@string/app_name"
+        android:name="de.djuelg.vostore.AndroidApplication"
+        android:label="Mappa Wise"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
@@ -18,7 +19,8 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity
-            android:name="de.djuelg.neuronizer.presentation.ui.activities.MainActivity"
+            android:name=".Mappa.SplashActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,11 +30,11 @@
         </activity>
 
         <activity
-            android:name="de.djuelg.neuronizer.presentation.ui.activities.IntroActivity"
+            android:name="de.djuelg.vostore.presentation.ui.activities.IntroActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <activity
-            android:name="de.djuelg.neuronizer.presentation.ui.widget.TodoListAppWidgetConfigure"
+            android:name="de.djuelg.vostore.presentation.ui.widget.TodoListAppWidgetConfigure"
             android:theme="@style/Theme.Transparent">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
@@ -40,7 +42,7 @@
         </activity>
 
         <receiver
-            android:name="de.djuelg.neuronizer.presentation.ui.widget.TodoListAppWidgetProvider"
+            android:name="de.djuelg.vostore.presentation.ui.widget.TodoListAppWidgetProvider"
             android:label="@string/todo_widget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -52,9 +54,33 @@
         </receiver>
 
         <service
-            android:name="de.djuelg.neuronizer.presentation.ui.widget.WidgetService"
+            android:name="de.djuelg.vostore.presentation.ui.widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
+        <activity android:name="de.djuelg.vostore.Mappa.LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".presentation.ui.activities.MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="de.djuelg.vostore.Mappa.Site3"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="de.djuelg.vostore.Mappa.Site2"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name="de.djuelg.vostore.Mappa.MainActivityMappa"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

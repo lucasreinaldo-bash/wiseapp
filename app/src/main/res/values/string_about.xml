@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_html"><![CDATA[
-        <h3>Intention</h3>
+        <h3>Intenção</h3>
         <p>
-            Neuronizer is the swap partition for your brain. This means it is here to store all the
-            information you would forget otherwise. It offers the opportunity to order your thoughts
-            in categories to recognize the information you need as fast as possible. Whenever you
-            need more flexibility you can order your content just the way you like.
+            O aplicativo Wise Mappa, foi idealizado por Adilson, criador do Instituto Wise. A ideia do App,
+            é deixar os usuários mais conectados com as páginas que ele detém, trazendo como consequência, um aumento significativo
+            no aprendizado do Pensamento Empreendedor para o público.
         </p>
-        <h3>Data Privacy</h3>
+        <h3>Wise Anotações</h3>
         <p>
-            Your data is yours. Everything you save to Neuronizer is encrypted and stored locally on your device only!
-            The developers are not responsible for any kind of data loss. If you want to migrate your
-            data to a new phone, use Import/Export from the settings.
+            Essa seção foi implementada pensando na sua organização . Através dela, você planejará melhor os seus afazeres e poderá fazer anotações sobre lições aprendidas nos blogs exibidos.
         </p>
-        <h3>Special Thanks</h3>
+        <h3>Créditos</h3>
         <p>
-            Special thanks goes to all the Todolist Of Death users, who gave me a lot of feedback. It
-            helped me create this improved version of the app. Furthermore I would like to thank all
-            the people who participated in the beta phase to test and improve Neuronizer.
+            Essa biblioteca foi desenvolvida pelo Djuelg, a quem concedeu o direito de reprodução através da Licença Creative Commons . O desenvolvimento do App ficou ao encargo do <a href="https://linkedin.com/in/lucasreinaldo/"> Lucas Reinaldo. </a>
         <p/>
         ]]>
     </string>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gradient="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="de.djuelg.vostore.Mappa.LoginActivity"
+    android:background="@drawable/fundo2"
+
+    android:id="@+id/relativeLayout2">
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="98dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/g"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/registro"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/entrarid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-111dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+
+        android:lineSpacingExtra="30sp"
+        android:text="Registrar"
+        android:textAllCaps="false"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/entrarid"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+
+        android:text="Entrar"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo"
+       />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="355dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="235dp">
+
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="44dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/senhaid"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginBottom="172dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:drawable/editbox_background_normal"
+
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/roboto_black"
+            android:gravity="center"
+            android:text="Entre com a sua conta da Google"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
